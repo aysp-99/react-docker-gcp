@@ -10,6 +10,7 @@ const Counter = () => {
         <button onClick={() => setCount(count + 1)}>
           Click me
         </button>
+        <p>Now running on Cloud Run!</p>
       </div>
     )
   }
